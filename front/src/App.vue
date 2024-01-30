@@ -15,6 +15,12 @@
       class="anibox box4 animate__pulse animate__animated animate__infinite infinite"
     ></div>
     <div class="anibox box5 tossing"></div>
+    <div class="tossing">
+      <div
+        class="anibox boxDual animate__pulse animate__animated animate__infinite infinite"
+      ></div>
+    </div>
+
     <div class="anibox box6"></div>
     <div class="anibox box7"></div>
     <div class="anibox box8"></div>
@@ -90,6 +96,9 @@ body {
   }
   .box5 {
     background-color: blue;
+  }
+  .boxDual {
+    background-color: green;
   }
   .box1 {
     animation: zoomInDown;
